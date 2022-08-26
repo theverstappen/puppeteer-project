@@ -3,7 +3,7 @@
 I used a boilerplate for this project. [repo is here](https://github.com/elibolonur/ts-express-vue). It allows us to run frontend and backend concurrently with using webpack and also it gives us prettier and eslint.
 Vue.js + Typescript + Express
 #### Description
-There two endpoints in projects under the server folder. Automation processes are done by index.ts file under the puppeteer folder. 
+There two endpoints in project under the server folder. Automation processes are done by index.ts file under the puppeteer folder. 
 
 /getBook => Opens goodreads and returns book name for the selected genre by user. I used browser as headless in that endpoint.
 
