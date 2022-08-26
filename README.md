@@ -9,9 +9,9 @@ There two endpoints in project under the server folder. Automation processes are
 
 /purchase => Opens amazon and searches for the selected book. Checks book if available and adds to card and navigates checkout page. I used browser as not headless in that endpoint to show user amazon web site
 
-I recognized an unexpected scroll behaviour when automation is typing book name to search input at Amazon web site. Created a retry mechanishm at the frontend side for both endpoints. I keep count each of the requests and resend if response returns with an error from backend.
+I recognized an unexpected scroll behaviour when automation is typing book name to search input at Amazon web site. Created a retry mechanism at the frontend side for both endpoints. I keep count each of the requests and resend if response returns with an error from backend.
 
-Show an information label to user step by step about automation process at the frontend side. Also show to user error messages If there is an error occurs. These messages are in the constants.ts file. I seperated them if it is caused by axios or from my backend service
+I show an information label about automation process at the frontend side. Also user can display error messages If there is an error occurs. These messages are in the constants.ts file. I seperated them if it is caused by axios or from my backend service
 
 `yarn` to install dependencies 
 `yarn serve` to run both client & server project concurrently 
