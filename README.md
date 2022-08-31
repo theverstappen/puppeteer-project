@@ -5,6 +5,8 @@ Vue.js + Typescript + Express
 #### Description
 There two endpoints in project under the server folder. Automation processes are done by index.ts file under the puppeteer folder. 
 
+VUE_APP_BACKEND_URL variable speicifies the backend url in .env file which located in the root directory
+
 /getBook => Opens goodreads and returns book name for the selected genre by user. I used browser as headless in that endpoint.
 
 /purchase => Opens amazon and searches for the selected book. Checks book if available and adds to card and navigates checkout page. I used browser as not headless in that endpoint to show user amazon web site
