@@ -1,6 +1,6 @@
 # Matterway Tech Challenge
 
-I used a boilerplate for this project. [repo is here](https://github.com/elibolonur/ts-express-vue). It allows us to run frontend and backend concurrently with using webpack and also it gives us prettier and eslint.
+I used a boilerplate for this project. [repo is here](https://github.com/elibolonur/ts-express-vuejs). It allows us to run frontend and backend concurrently with using webpack and also it gives us prettier and eslint.
 Vue.js + Typescript + Express
 #### Description
 There two endpoints in project under the server folder. Automation processes are done by index.ts file under the puppeteer folder. 
@@ -13,19 +13,19 @@ I recognized an unexpected scroll behaviour when automation is typing book name 
 
 I show an information label about automation process at the frontend side. Also user can display error messages If there is an error occurs. These messages are in the constants.ts file. I seperated them if it is caused by axios or from my backend service
 
-`yarn` to install dependencies 
-`yarn serve` to run both client & server project concurrently 
+`npm install` to install dependencies 
+`npm run serve` to run both client & server project concurrently 
  
-`yarn build` to build both client & server project to dist/
+`npm run build` to build both client & server project to dist/
 
 # If you want to run server & client separately 
  
-`yarn dev:client` to run client project. 
+`npm run dev:client` to run client project. 
  
-`yarn dev:server` to run server project.  
+`npm run dev:server` to run server project.  
   
   
-`yarn build:client` to build client project.  
+`npm run build:client` to build client project.  
  
-`yarn build:server` to build server project. 
+`npm run build:server` to build server project. 
 
